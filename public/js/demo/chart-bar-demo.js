@@ -32,13 +32,13 @@ var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["January", "February", "March", "April", "May", "June"],
+    labels: ["09/07", "09/08", "09/09", "09/10", "09/11", "09/12", "09/13"],
     datasets: [{
-      label: "Revenue",
+      label: "일별 확진자 수",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [4215, 5312, 6251, 7841, 9821, 14984],
+      data: [119, 136, 156, 155, 176, 136, 121],
     }],
   },
   options: {
