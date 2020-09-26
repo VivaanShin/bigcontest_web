@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 //trend
 router.get('/', function(req, res, next) {
-  res.render('trend_population', { title: 'Express' });
+  res.render('trend', { title: 'Express' });
 });
 
 router.get('/population', function(req, res, next) {
