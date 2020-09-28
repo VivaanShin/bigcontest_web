@@ -28,7 +28,7 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 }
 
 // Area Chart Example
-var ctx2 = document.getElementById("CoronaChart");
+var ctx2 = document.getElementById("nwChart");
 var myLineChart = new Chart(ctx2, {
   type: 'line',
   data: {
@@ -133,7 +133,7 @@ var myLineChart = new Chart(ctx2, {
 });
 
 
-var ctx = document.getElementById("PredictChart");
+var ctx = document.getElementById("bfChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
